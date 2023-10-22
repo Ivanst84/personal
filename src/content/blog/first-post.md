@@ -1,19 +1,180 @@
 ---
-title: 'First post'
-description: 'Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.'
-pubDate: 'Jul 08 2022'
-heroImage: '/blog-placeholder.jpg'
-categories: ['first']
-authors: ['gndx']
-tags: ['science', 'technology']
+title: 'Api-Incident'
+description: 'En este proyecto, se  desarrollo una API RESTful utilizando las tecnologías clave de Express, MongoDB y JavaScript. Esta API permite llevar a cabo operaciones básicas de Crear, Leer, Actualizar y Eliminar (CRUD) sobre una colección de datos relacionados con incidencias..'
+pubDate: 'OCT 12 2023'
+heroImage: 'https://i.imgur.com/eu8apsy.png'
+categories: ['JavaScript']
+authors: ['ivanSosa']
+tags: ['express', 'API']
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+ Documentación de la API de Administración de Incidencias
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+## Introducción
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+La API de Administración de Incidencias es una aplicación RESTful que permite la gestión de incidencias. Puedes realizar operaciones como crear, leer, actualizar y eliminar incidencias a través de esta API.
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+## Tecnologías Utilizadas
+- **Lenguaje:** JavaScript
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+- **Framework:** Express, React
+- **Base de Datos:** MongoDB
+- **Bibliotecas** Axios, MaterialUI
+
+
+## Base URL
+
+El punto de acceso principal para la API es: `https://incident-ap.onrender.com/api`
+
+## Autenticación
+
+Para utilizar la API, debes autenticarte. Actualmente, no se ha proporcionado información sobre el método de autenticación en el código proporcionado.
+
+## Endpoints
+
+### Crear una Incidencia
+
+- **Ruta:** `/createIncident`
+- **Método:** POST
+- **Descripción:** Crea una nueva incidencia.
+
+#### Parámetros de solicitud
+
+- `title` (String, requerido): Título de la incidencia.
+- `description` (String, requerido): Descripción de la incidencia.
+- `user` (String, requerido): Usuario relacionado con la incidencia.
+- `severity` (String, requerido): Gravedad de la incidencia.
+
+#### Respuesta exitosa
+
+Devuelve la incidencia creada.
+
+#### Códigos de estado
+
+- 200: Éxito
+- 400: Error en la solicitud
+- 500: Error interno del servidor
+
+### Obtener todas las Incidencias
+
+- **Ruta:** `/getIncidents`
+- **Método:** GET
+- **Descripción:** Obtiene todas las incidencias.
+
+#### Respuesta exitosa
+
+Devuelve un arreglo de incidencias.
+
+#### Códigos de estado
+
+- 200: Éxito
+- 400: Error en la solicitud
+- 500: Error interno del servidor
+
+### Obtener Incidencias por Gravedad
+
+- **Ruta:** `/getIncidentsBySeverity`
+- **Método:** GET
+- **Descripción:** Obtiene incidencias por gravedad.
+
+#### Parámetros de consulta
+
+- `severity` (String, requerido): Gravedad de la incidencia a filtrar.
+
+#### Respuesta exitosa
+
+Devuelve un arreglo de incidencias que coinciden con la gravedad especificada.
+
+#### Códigos de estado
+
+- 200: Éxito
+- 400: Error en la solicitud
+- 500: Error interno del servidor
+
+### Obtener Incidencias por Estado
+
+- **Ruta:** `/getIncidentsByState`
+- **Método:** GET
+- **Descripción:** Obtiene incidencias por estado.
+
+#### Parámetros de consulta
+
+- `completed` (Boolean, requerido): Estado de la incidencia a filtrar (completada o no completada).
+
+#### Respuesta exitosa
+
+Devuelve un arreglo de incidencias que coinciden con el estado especificado.
+
+#### Códigos de estado
+
+- 200: Éxito
+- 400: Error en la solicitud
+- 500: Error interno del servidor
+
+### Actualizar una Incidencia
+
+- **Ruta:** `/updateIncident`
+- **Método:** PUT
+- **Descripción:** Actualiza una incidencia existente.
+
+#### Parámetros de solicitud
+
+Debes proporcionar el `id` de la incidencia a actualizar y los campos que deseas modificar.
+
+#### Respuesta exitosa
+
+Devuelve un mensaje de éxito.
+
+#### Códigos de estado
+
+- 200: Éxito
+- 400: Error en la solicitud
+- 500: Error interno del servidor
+
+### Eliminar una Incidencia
+
+- **Ruta:** `/deleteIncident`
+- **Método:** DELETE
+- **Descripción:** Elimina una incidencia.
+
+#### Parámetros de solicitud
+
+Debes proporcionar el `id` de la incidencia a eliminar.
+
+#### Respuesta exitosa
+
+Devuelve un mensaje de éxito.
+
+#### Códigos de estado
+
+- 200: Éxito
+- 400: Error en la solicitud
+- 500: Error interno del servidor
+
+## Ejemplos de Uso
+
+### Crear una Incidencia
+
+```http
+POST /api/createIncident
+Content-Type: application/json
+
+{
+  "title": "Incidencia de ejemplo",
+  "description": "Descripción de la incidencia",
+  "user": "UsuarioEjemplo",
+  "severity": "Alta"
+}
+PUT /api/updateIncident
+Content-Type: application/json
+
+{
+  "id": "ID_de_la_incidencia",
+  "title": "Nuevo título"
+}
+DELETE /api/deleteIncident
+Content-Type: application/json
+
+{
+  "id": "ID_de_la_incidencia"
+}

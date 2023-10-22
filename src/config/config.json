@@ -4,21 +4,21 @@
     "base_url": "https://ev0.gndx.io",
     "base_path": "/",
     "favicon": "/favicon.png",
-    "logo": "https://s3.amazonaws.com/gndx.dev/ev0-astro-logo.png",
+    "logo": "https://i.imgur.com/DsaTz1j.jpg",
     "lang": "en",
-    "description": "EV0 is a free and open-source serverless blog template, built with Astro, Tailwind CSS, and TypeScript.",
+    "description": "logotipo Ivan Sosa Tovar.",
     "pageSize": 6
   },
   "features": {
     "youtube": true
   },
   "metadata": {
-    "meta_author": "Oscar Barajas @gndx",
+    "meta_author": "Ivan sosa Tovar",
     "meta_description": "EV0 is a free and open-source serverless blog template, built with Astro, Tailwind CSS, and TypeScript."
   },
   "author": {
-    "name": "Oscar Barajas Tavares @gndx",
-    "avatar": "https://s3.amazonaws.com/gndx.dev/gndx-astro-avatar.png",
-    "bio": "EV0 is a free and open-source serverless blog template, built with Astro, Tailwind CSS, and TypeScript."
+    "name": "Ivan Sosa Tovar @istovar",
+    "avatar": "https://i.imgur.com/lO5shj9.png",
+    "bio": "Welcome to my web portfolio! I am a passionate web developer with a focus on both front-end and back-end technologies. I am dedicated to creating efficient and appealing digital solutions that blend design and functionality.."
   }
 }

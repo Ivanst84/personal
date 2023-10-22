@@ -1,19 +1,39 @@
 ---
-title: 'Another blogpost with a long title'
-description: 'Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.'
+title: 'Fake Shop  '
+
+description: 'Demo de una tienda en linea utilizando la api de Fake Shop.'
 pubDate: '2023-09-19T01:09:01.514Z'
-heroImage: '/blog-placeholder.jpg'
+heroImage: 'https://i.imgur.com/nqUxAtL.png'
 categories: ['test']
-tags: ['science', 'technology']
-author: '["gndx"]'
+tags: ['React', 'Vite','Tailwind']
+author: '["IST"]'
 ---
+[Visitar el sitio web](https://master--curious-melba-4683de.netlify.app/ "{{title}}")
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+En el presente proyecto, he creado una demo de una tienda en línea utilizando React.js, Vite.js y TailwindCSS. Esta demo representa una fase inicial y básica de desarrollo, y aún se están realizando mejoras y adiciones.
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+Tecnologías Utilizadas:
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+React.js: La base de esta demo es React.js, que proporciona la estructura y la funcionalidad fundamental de la aplicación.
+
+Vite.js: Vite.js se ha empleado como entorno de desarrollo para agilizar la creación de la aplicación y facilitar las iteraciones.
+
+TailwindCSS: TailwindCSS ha sido utilizado para gestionar los estilos de la demo, permitiendo una interfaz de usuario funcional y atractiva.
+
+Características Actuales:
+
+La demo cuenta con componentes básicos para visualizar productos, pero aún se están desarrollando características adicionales.
+
+Se ha implementado una navegación client-side utilizando React Router DOM para una experiencia de usuario fluida.
+
+Los datos de esta demo se obtienen a través de la API fake "shop," lo que proporciona una base para futuras mejoras y la incorporación de datos más realistas.
+
+Trabajo en Progreso:
+
+Esta demo representa una etapa inicial en el desarrollo de una tienda en línea más completa. A medida que el proyecto avance, se agregarán más características y funcionalidades para ofrecer una experiencia de usuario completa y satisfactoria.
+
+Conclusiones:
+
+A pesar de ser una demo inicial, este proyecto me ha permitido aplicar mis conocimientos en React.js, Vite.js y TailwindCSS en un contexto práctico. Estoy entusiasmado por continuar trabajando en este proyecto, realizar mejoras significativas y lograr una tienda en línea funcional y atractiva.
