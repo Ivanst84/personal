@@ -26,9 +26,6 @@ La API de Administración de Incidencias es una aplicación RESTful que permite 
 
 El punto de acceso principal para la API es: `https://incident-ap.onrender.com/api`
 
-## Autenticación
-
-Para utilizar la API, debes autenticarte. Actualmente, no se ha proporcionado información sobre el método de autenticación en el código proporcionado.
 
 ## Endpoints
 
