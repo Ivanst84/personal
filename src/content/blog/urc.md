@@ -29,4 +29,8 @@ Metodologia implementada:
 La metodología para utilizar para este proyecto es Scrum pues uno de los beneficios que aporta la metodología Scrum es el ritmo de trabajo sostenible, pues este se adapta a los cambios de manera rápida consiguiendo un avance constante, tanto en la duración del Split y los esfuerzos.
 Bournissen en su artículo SCRUM as a Methodological Tool for programming Learning menciona   otros de los beneficios y es el resultado anticipado con los que el cliente puede utilizar lo más importantes antes de que el proyecto termine, además de permitir la flexibilidad y adaptación en los cambios y errores que puedan surgir durante los Split (J. Bournissen,2020).
 
-Visualización de Resultados: Los resultados de la búsqueda se muestran en una lista con información esencial sobre los usuarios encontrados.
+Diagrama de componentes
+https://imgur.com/9qnHdDo
+
+Diagrama de despliegue 
+https://imgur.com/3xBDee1
