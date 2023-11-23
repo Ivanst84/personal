@@ -2,8 +2,8 @@
 title: 'SISTEMA WEB DE GESTIÓN ADMINISTRATIVA URC'
 description: 'Proyecto terminal para la obtención del Título Ingeniería en Desarrollo de Software en la UNADM.'
 pubDate: 'nov 15, 2023'
-heroImage: 'https://i.imgur.com/nX0Tkjd.png'
-categories: ['React']
+heroImage: 'https://i.imgur.com/E28X9c0.png'
+categories: ['PHP']
 authors: ['Ivan']
 tags: ['CSS', 'HTML', 'JavaScript', 'PHP']
 ---
@@ -31,18 +31,18 @@ Se ha empleado la metodología Scrum para este proyecto, ya que ofrece beneficio
 ## Diagramas
 
 ### Diagrama de Componentes
-![Diagrama de Componentes](https://imgur.com/9qnHdDo)
+![Diagrama de Componentes](https://imgur.com/9qnHdDo.png)
 
 ### Diagrama de Despliegue
-![Diagrama de Despliegue](https://imgur.com/3xBDee1)
+![Diagrama de Despliegue](https://i.imgur.com/3xBDee1.png)
 
 ## Gráficas
 
 ### Módulo Tesorería
-![Gráficas Módulo Tesorería](https://imgur.com/sSKJlc3)
+![Gráficas Módulo Tesorería](https://imgur.com/sSKJlc3.png)
 
 ### PDF Generado
-![PDF Generado](https://imgur.com/Iu00AKS)
+![PDF Generado](https://imgur.com/Iu00AKS.png)
 
 ### Tendencias Bimestrales
-![Gráfica Tendencias Bimestrales](https://imgur.com/pv5irOo)
+![Gráfica Tendencias Bimestrales](https://imgur.com/pv5irOo.png)
