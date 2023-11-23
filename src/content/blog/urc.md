@@ -1,36 +1,48 @@
 ---
 title: 'SISTEMA WEB DE GESTIÓN ADMINISTRATIVA URC'
-description: 'Proyecto terminal para la optención del Titulo Ingenieria en desarrollo de software en la UNADM.'
-pubDate: 'nov 15 2023'
+description: 'Proyecto terminal para la obtención del Título Ingeniería en Desarrollo de Software en la UNADM.'
+pubDate: 'nov 15, 2023'
 heroImage: 'https://i.imgur.com/nX0Tkjd.png'
 categories: ['React']
-authors: ['ivan']
-tags: ['CSS', 'HTML', 'JavaScript','PHP']
+authors: ['Ivan']
+tags: ['CSS', 'HTML', 'JavaScript', 'PHP']
 ---
-   [Visitar el sitio web]( https://astonishing-mermaid-1c2952.netlify.app/ "{{title}}")
 
- 
-Descripción del Proyecto
+[Visitar el sitio web](https://urcmxl.com/ "{{title}}")
 
-Sistema web en lenguaje PHP y JavaScript para la gestión automatizada de los procesos, tareas y manejo de la información del padrón de asociados, así como consultas de actividades, noticias y finanzas propias de la Asociación Unión Revolucionaria en mercados sobre ruedas AC de la ciudad de Mexicali B.C. mediante la implementación de lenguajes de programación, herramientas tecnológicas, servidores web y otros componentes de software y hardware necesarios
+## Descripción del Proyecto
 
-Tecnologías Utilizadas
-PHP
-HTML5
-JavaSCRIPT
-Bootstrap
-Librerias:
-Jquery con el fin de simplificar la manipulación del DOM
-Summernote para el modulo de solicitudes.
-Char.js para graficas
-HTML2PDF para los oficios.
+Sistema web desarrollado en PHP y JavaScript para la gestión automatizada de procesos, tareas y la administración de información del padrón de asociados. Además, permite consultar actividades, noticias y finanzas propias de la Asociación Unión Revolucionaria en mercados sobre ruedas AC en la ciudad de Mexicali, B.C. El proyecto se realiza mediante la implementación de lenguajes de programación, herramientas tecnológicas, servidores web y otros componentes de software y hardware necesarios.
 
-Metodologia implementada:
-La metodología para utilizar para este proyecto es Scrum pues uno de los beneficios que aporta la metodología Scrum es el ritmo de trabajo sostenible, pues este se adapta a los cambios de manera rápida consiguiendo un avance constante, tanto en la duración del Split y los esfuerzos.
-Bournissen en su artículo SCRUM as a Methodological Tool for programming Learning menciona   otros de los beneficios y es el resultado anticipado con los que el cliente puede utilizar lo más importantes antes de que el proyecto termine, además de permitir la flexibilidad y adaptación en los cambios y errores que puedan surgir durante los Split (J. Bournissen,2020).
+## Tecnologías Utilizadas
+- PHP
+- HTML5
+- JavaScript
+- Bootstrap
+- Librerías:
+  - jQuery para simplificar la manipulación del DOM
+  - Summernote para el módulo de solicitudes
+  - Chart.js para gráficas
+  - HTML2PDF para los oficios.
 
-Diagrama de componentes
-https://imgur.com/9qnHdDo
+## Metodología Implementada
+Se ha empleado la metodología Scrum para este proyecto, ya que ofrece beneficios como un ritmo de trabajo sostenible y una adaptación rápida a los cambios, logrando un avance constante durante la duración de los Sprints. Bournissen, en su artículo "SCRUM as a Methodological Tool for Programming Learning," menciona otros beneficios, como resultados anticipados que el cliente puede utilizar antes de que el proyecto termine, flexibilidad y adaptación a cambios y errores durante los Sprints (J. Bournissen, 2020).
 
-Diagrama de despliegue 
-https://imgur.com/3xBDee1
+## Diagramas
+
+### Diagrama de Componentes
+![Diagrama de Componentes](https://imgur.com/9qnHdDo)
+
+### Diagrama de Despliegue
+![Diagrama de Despliegue](https://imgur.com/3xBDee1)
+
+## Gráficas
+
+### Módulo Tesorería
+![Gráficas Módulo Tesorería](https://imgur.com/sSKJlc3)
+
+### PDF Generado
+![PDF Generado](https://imgur.com/Iu00AKS)
+
+### Tendencias Bimestrales
+![Gráfica Tendencias Bimestrales](https://imgur.com/pv5irOo)
