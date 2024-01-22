@@ -11,7 +11,7 @@ tags: ['React', 'SASS', 'Typescript','NextJs']
                                                                              
 Dizzoo es mi creación personal en la que he utilizado Next.js v14 para construir un sitio web dinámico y atractivo. Mi enfoque se centra en ofrecer una experiencia de usuario única
 
-Conocimientos  puestos en practica:
+##Conocimientos  puestos en practica:
 Node.js: La base de mi desarrollo, he utilizado Node.js para construir una arquitectura de servidor eficiente y escalable.
 
 TypeScript: Mi elección para un desarrollo más seguro y estructurado, incorporando tipos estáticos en mi código.
@@ -24,10 +24,20 @@ Manejo de APIs de forma asíncrona: Implemento prácticas de desarrollo asíncro
 
 SASS: Para un diseño elegante y consistente, utilizo SASS para la gestión de estilos y personalización completa de la apariencia de Dizzoo.
 
-API de ChatGPT: Integré la API de ChatGPT para ofrecer una experiencia de chatbot interactiva y enriquecedora a los visitantes de Dizzoo.
+API de ChatGPT: Integré la API de ChatGPT para ofrecer una experiencia de chatbot interactiva y enriquecedora a los visitantes de Dizzoo.(version de prueba de 3 meses empezando enero 2024)
 
-Software Utilizado
+##Software Utilizado
 Node.js: Plataforma principal para el desarrollo y ejecución de mi proyecto.
 
 Shopify: Integración clave para gestionar productos y ofrecer una experiencia de compra eficiente en Dizzoo.
+## Diagramas
+
+### Store
+![Foto Store](https://i.imgur.com/KgAsHbX.png)
+
+### ChatBot
+
+![Foto Chat](https://i.imgur.com/dZMayqF.png)
+
+
                                                           [Visitar el sitio web](https://dizoo-shop.vercel.app/store "{{title}}")
