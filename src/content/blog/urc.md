@@ -46,3 +46,4 @@ Se ha empleado la metodología Scrum para este proyecto, ya que ofrece beneficio
 
 ### Tendencias Bimestrales
 ![Gráfica Tendencias Bimestrales](https://imgur.com/pv5irOo.png)
+
