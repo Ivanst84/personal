@@ -3,7 +3,7 @@ title: 'Control de gastos'
 description: 'Control de gastos es una aplicación realizada en react con el fin de poner en practica el conocimiento optenido en el uso de context  reducer.'
 pubDate: 'SEP 28 2023'
 heroImage: 'https://i.imgur.com/PcQ42ci.png'
-categories: ['programacion']
+categories: ['React','TypeScript']
 authors: ['Ist']
 tags: ['React', 'Tailwind', 'TypeScript', 'Next.js']
 ---
