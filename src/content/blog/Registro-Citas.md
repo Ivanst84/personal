@@ -10,7 +10,7 @@ tags: ["React", "Tailwind", "TypeScript", "Zustand"]
 
 # Control de Registro de Pacientes App: Creando Experiencias Web
 
-Probando
+Esta aplicación básica permite el registro y gestión de pacientes en una veterinaria, desarrollada como proyecto de práctica utilizando React y otras tecnologías.
 
 ## Conocimientos Puestos en Práctica
 
