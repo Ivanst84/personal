@@ -2,8 +2,8 @@
 title: "Control de Registro de Pacientes App: Creando Experiencias Web"
 description: "Control de Registro de Pacientes es una aplicación básica para la gestión de pacientes en una veterinaria, desarrollada en React con el uso de context y reducer para práctica de conocimientos."
 pubDate: "SEP 28 2023"
-heroImage: "https://imgur.com/ExpUCgv"
-categories: ["Programación"]
+heroImage: "https://imgur.com/ExpUCgv.png"
+categories: ["React,TypeScript"]
 authors: ["Ist"]
 tags: ["React", "Tailwind", "TypeScript", "Zustand"]
 ---

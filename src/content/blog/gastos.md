@@ -10,7 +10,9 @@ tags: ['React', 'Tailwind', 'TypeScript', 'Next.js']
                        
 # Control de gastos APP: Creando Experiencias Web
 
-probando
+Control de gastos es una aplicacion realizada en React, se utilizaron librerias como circular progress bar para darle una experiencia de usuario mas atractiva al porcentaje de gastos.
+ademas se utilizo date-picker con el fin de mostrar un calendario  y el usuario le sea mas facil y atractivo elegir una fecha.
+
 
 - ## Conocimientos Puestos en Práctica
 
