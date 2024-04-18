@@ -5,7 +5,7 @@ pubDate: 'DIC 12 2023'
 heroImage: 'https://i.imgur.com/eu8apsy.png'
 categories: ['TypeScript']
 authors: ['ivanSosa']
-tags: ['React', 'API']
+tags: ['React', 'API','Zustand']
 ---
 
 
