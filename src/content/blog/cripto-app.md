@@ -1,7 +1,7 @@
 ---
 title: 'cripto-app'
 description: 'CriptoApp utilizando React, TypeScript,Zustand,axios'
-pubDate: 'DIC 12 2023'
+pubDate: 'nov 15, 2023'
 heroImage: 'https://i.imgur.com/eu8apsy.png'
 categories: ['TypeScript']
 authors: ['ivanSosa']
