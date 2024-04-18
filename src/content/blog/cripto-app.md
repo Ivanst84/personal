@@ -2,7 +2,7 @@
 title: 'cripto-app'
 description: 'CriptoApp utilizando React, TypeScript,Zustand,axios'
 pubDate: 'nov 15, 2023'
-heroImage: 'https://i.imgur.com/eu8apsy.png'
+heroImage: 'https://i.imgur.com/JglCqAR.png'
 categories: ['TypeScript']
 authors: ['ivanSosa']
 tags: ['React', 'API','Zustand']
@@ -99,3 +99,13 @@ export default function CriptoPriceDisplay() {
   const result = useCryptoStore((state) => state.result);
   const hasResult = useMemo(() => Object.keys(result).length > 0, [result]);
   const [isLoaded, setIsLoaded]
+}
+
+
+```
+---
+
+[Visita el sitio web ](https://cripto-h6agbtyty-ivanst84s-projects.vercel.app/)
+
+
+[Repositorio](https://github.com/Ivanst84/cripto-app/)
