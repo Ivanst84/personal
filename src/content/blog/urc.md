@@ -1,5 +1,5 @@
 ---
-title: 'SISTEMA WEB DE GESTIÓN ADMINISTRATIVA URC'
+title: 'Sistema WEB de gestión administrativa URC'
 description: 'Proyecto terminal para la obtención del Título Ingeniería en Desarrollo de Software en la UNADM.'
 pubDate: 'nov 15, 2023'
 heroImage: 'https://i.imgur.com/E28X9c0.png'
