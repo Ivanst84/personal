@@ -61,7 +61,8 @@ En este componente, se muestra la información de cotización de la criptomoneda
 
 ### Ejemplo de Uso de Zustand y Axios
 
-```javascript
+```typescript
+
 import { create } from 'zustand';
 import axios from 'axios';
 import { CryptoPriceSchema } from './schema/crypto-schema';
@@ -85,3 +86,16 @@ export const useCryptoStore = create<CryptoStore>((set) => ({
     // Procesar los datos y actualizar el estado
   },
 }));
+
+```
+###Ejemplo de Uso de Componente React con Estados
+
+```typescript
+
+import { useEffect, useState, useMemo } from 'react';
+import { useCryptoStore } from '../store';
+
+export default function CriptoPriceDisplay() {
+  const result = useCryptoStore((state) => state.result);
+  const hasResult = useMemo(() => Object.keys(result).length > 0, [result]);
+  const [isLoaded, setIsLoaded]
