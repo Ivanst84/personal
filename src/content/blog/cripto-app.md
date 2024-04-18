@@ -1,3 +1,15 @@
+---
+title: 'cripto-app'
+description: 'CriptoApp utilizando React, TypeScript,Zustand,axios'
+pubDate: 'DIC 12 2023'
+heroImage: 'https://i.imgur.com/eu8apsy.png'
+categories: ['TypeScript']
+authors: ['ivanSosa']
+tags: ['React', 'API']
+---
+
+
+
 # Introducción
 
 Bienvenido a la documentación de **CriptoApp**, una aplicación desarrollada para obtener información de cotización de criptomonedas mediante el consumo de una API. Esta documentación detalla los aprendizajes clave, la estructura del proyecto y la lógica de la aplicación.
