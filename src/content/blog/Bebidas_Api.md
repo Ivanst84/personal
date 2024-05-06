@@ -77,7 +77,7 @@ export async function getCategories() {
   }
 }
 
-
+```
 ---
 
 [Visita el sitio web de Planificador de gastos](https://catalogo-bebidas-react-zustand-zod-ax.netlify.app/)
