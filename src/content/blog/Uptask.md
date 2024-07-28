@@ -12,7 +12,7 @@ tags: ['TailwindCSS', 'React', 'TypeScript', 'Zod']
 
 ![Hero Image](https://i.imgur.com/j6HbwQk.png)
 
-[Visitar el sitio web](https://urcmxl.com/ "Visitar UpTask")
+[Visitar el sitio web](https://up-task-frontend-duj2kv8w6-ivanst84s-projects.vercel.app/ "Visitar UpTask")
 
 ## Descripción del Proyecto
 
