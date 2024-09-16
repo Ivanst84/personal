@@ -2,7 +2,8 @@
 title: 'Espartanos App - Sistema WEB de automatización para Marketing'
 description: 'Aplicación desarrollada con React, Next.js y Tesseract.js para la automatización de procesos de captura de datos y envío de mensajes en el departamento de marketing.'
 pubDate: 'sep 15, 2024'
-heroImage: 'https://i.imgur.com/VnRpPrl.png'
+heroImage: 'https://i.imgur.com/3xl0fm3.png'
+
 categories: ['JavaScript', 'Next']
 authors: ['Ivan Sosa']
 tags: ['TailwindCSS', 'Next', 'JavaScript', 'Prisma']
@@ -37,7 +38,7 @@ tags: ['TailwindCSS', 'Next', 'JavaScript', 'Prisma']
 
 ![Datos de nombres y números ficticios para demostración en Espartanos App](https://i.imgur.com/sXeIpdp.png)
 
-![Formulario de demostración personalizado en Espartanos Web App v1.0 Beta](https://imgur.com/a/NQa5BFH)
+![Formulario de demostración personalizado en Espartanos Web App v1.0 Beta](https://i.imgur.com/bac9kj6.png)
 
 *Esta tabla muestra nombres y números de teléfono ficticios generados para fines de demostración en la Espartanos App. Los datos expuestos no representan información real, siendo utilizados únicamente para ilustrar el funcionamiento del sistema de captura de datos y envío automatizado de mensajes a través de WhatsApp.*
 
